@@ -1,6 +1,7 @@
 tasks:
   - init: |
       echo 'TODO: build project'
+      sudo apt install libncurses5
       curl https://static.lamdera.com/bin/linux/lamdera -o ~/lamdera
       chmod a+x ~/lamdera
     command: |
