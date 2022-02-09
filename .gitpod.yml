@@ -1,9 +1,9 @@
 tasks:
   - init: |
       echo 'TODO: build project'
-      yes | sudo apt install libncurses5
       curl https://static.lamdera.com/bin/linux/lamdera -o /workspace/lamdera-realworld/lamdera
       chmod a+x /workspace/lamdera-realworld/lamdera
     command: |
       echo 'TODO: start app'
+      yes | sudo apt install libncurses5
       ./lamdera live

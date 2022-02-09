@@ -5,3 +5,6 @@ public/dist
 
 # MacOS weird stuff
 .DS_Store
+
+# Lamdera binary
+lamdera
